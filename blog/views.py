@@ -6,4 +6,4 @@ from django.shortcuts import render
 
 def home(request):
     context = {}
-    return HttpResponse("<h1>Hello world. Como esta?</h1>")
+    return render(request, 'index.html')
