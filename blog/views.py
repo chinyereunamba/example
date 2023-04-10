@@ -1,4 +1,4 @@
-from django.http import HttpRequest
+from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
@@ -6,4 +6,4 @@ from django.shortcuts import render
 
 def home(request):
     context = {}
-    return HttpRequest("<h1>Hello World. How do you do?</h1>")
+    return HttpResponse("<h1>Hello world. Como esta?</h1>")
