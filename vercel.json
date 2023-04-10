@@ -8,10 +8,13 @@
             }
         }
     ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "example/wsgi.py"
-        }
-    ]
+    {
+        "routes": [
+            {
+                "src": "/[^.]+",
+                "dest": "/",
+                "status": 200
+            }
+        ]
+    }
 }
