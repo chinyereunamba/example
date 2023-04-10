@@ -1,5 +1,5 @@
 __pycache__/
-django/
+.venv
 node_modules/
 .envrc
 *.sqlite3
